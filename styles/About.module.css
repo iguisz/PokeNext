@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  margin: .3em 0;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.smText {
+  margin: .3em 0;
+  font-size: 17px;
+  text-align: center;
+  width: 50vw;
+}
+
+@media (max-width: 512px) {
+  
+  .smText {
+    width: 85vw;
+  }
+}

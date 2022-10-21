@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #1f1f1f;
+  justify-content: space-between;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  padding: 24px 32px;
+  margin-bottom: 2vh;
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 320px) {
+  .brand {
+    padding: 20px 0;
+  }
+}
+
+.brand a {
+  margin: 0 .5em;
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
+  font-size: 19px;
+}
+

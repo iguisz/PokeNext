@@ -1,0 +1,26 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.title {
+  color: #E30F10;
+  text-align: center;
+  font-size: 3em;
+  margin-right: .4em;
+}
+
+.title span {
+  color: #000000;
+}
+
+.pokeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90vw;
+  margin: 0 auto;
+}
